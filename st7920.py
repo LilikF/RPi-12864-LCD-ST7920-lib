@@ -377,10 +377,6 @@ class ST7920:
         self.loadTextFont("font2.txt")  # Retrieve an external font from the file
         self.clearDisplay(0)     # deletion of the display
 
-    def writeText(self, txt, x, y):
-        self.printStringTextMode(txt,0,0)   # Display the text in the text mode at specified coordinates
-
-
     def examples(self):
 
         self.clearDisplay(0)     # Complete deletion of the display
